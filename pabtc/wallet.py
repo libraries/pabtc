@@ -309,6 +309,13 @@ class Signerp2tr(Signer):
 
 class Wallet:
     def __init__(self, signer: Signer) -> None:
+        # Signer is responsible for signing transactions, could be one of the following types:
+        # * Signerp2pkh
+        # * Signerp2shp2ms
+        # * Signerp2shp2wpkh
+        # * Signerp2wpkh
+        # * Signerp2wshp2ms
+        # * Signerp2tr
         self.signer = signer
         self.script = self.signer.script
         self.search = Searcher()
