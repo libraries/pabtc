@@ -43,6 +43,18 @@ $ python example/message.py --prikey 1 --msg pybtc --sig ICvzXjwjJVMilSGyMqwlqMT
 # True
 ```
 
+**example/mnemonic.py**
+
+Encode and decode mnemonic phrases. The data length needs to be between 16 and 32 bytes and divisible by 4.
+
+```sh
+$ python example/mnemonic.py --encode 0xf30f8c1da665478f49b001d94c5fc452
+# vessel ladder alter error federal sibling chat ability sun glass valve picture
+
+$ python example/mnemonic.py --decode vessel ladder alter error federal sibling chat ability sun glass valve picture
+# 0xf30f8c1da665478f49b001d94c5fc452
+```
+
 **example/p2mr.py**
 
 P2MR (Pay to Merkle Root) is a new type of output script proposed in BIP-360 (2026). This example demonstrates how to create a P2MR script. Since P2MR is not yet supported in Bitcoin Core, you cannot use this script to create a real P2MR output. However, you can still use it to understand how P2MR works and create P2MR scripts.

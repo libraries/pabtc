@@ -14,6 +14,11 @@ def test_message():
     call('python example/message.py --prikey 1 --msg pybtc --sig ICvzXjwjJVMilSGyMqwlqMTuGF6UMwddFJzVmm0Di5qNnqkBRKP8Pldm3YbOskg3ewV1tszVLy8gVX1u+qFrx6o=')
 
 
+def test_mnemonic():
+    call('python example/mnemonic.py --encode 0xf30f8c1da665478f49b001d94c5fc452')
+    call('python example/mnemonic.py --decode vessel ladder alter error federal sibling chat ability sun glass valve picture')
+
+
 def test_p2mr():
     call('python example/p2mr.py')
 
