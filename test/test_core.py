@@ -1,6 +1,7 @@
-import pabtc
 import random
 import string
+
+import pabtc
 
 
 def test_address_p2pkh():

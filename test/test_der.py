@@ -1,5 +1,6 @@
-import pabtc
 import secrets
+
+import pabtc
 
 
 def test_der():

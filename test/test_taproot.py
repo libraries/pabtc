@@ -1,5 +1,6 @@
-import pabtc
 import random
+
+import pabtc
 
 
 def test_prikey_tweak():

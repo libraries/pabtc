@@ -1,4 +1,5 @@
 import argparse
+
 import pabtc
 
 # Calculate the address from a private key.

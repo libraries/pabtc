@@ -1,11 +1,12 @@
 import decimal
 import itertools
-import pabtc.config
-import pabtc.rate
 import random
-import requests
 import typing
 
+import requests
+
+import pabtc.config
+import pabtc.rate
 
 # Doc: https://developer.bitcoin.org/reference/rpc/
 

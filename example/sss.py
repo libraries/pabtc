@@ -1,6 +1,7 @@
 import argparse
-import pabtc
 import secrets
+
+import pabtc
 
 # Shamir's secret sharing. See https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing.
 # Usage:

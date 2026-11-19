@@ -4,6 +4,8 @@ import io
 import itertools
 import json
 import math
+import secrets
+
 import pabtc.base58
 import pabtc.bech32
 import pabtc.compact_size
@@ -16,7 +18,6 @@ import pabtc.ripemd160
 import pabtc.rpc
 import pabtc.schnorr
 import pabtc.secp256k1
-import secrets
 
 sighash_default = 0x00
 sighash_all = 0x01

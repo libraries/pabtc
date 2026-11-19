@@ -1,4 +1,5 @@
 import argparse
+
 import pabtc
 
 # Sign a message with the private key and verify it.

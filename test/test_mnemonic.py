@@ -1,6 +1,7 @@
-import pytest
-import pabtc
 import random
+
+import pabtc
+import pytest
 
 
 def test_mnemonic():

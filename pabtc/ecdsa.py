@@ -1,5 +1,6 @@
-import pabtc.secp256k1
 import secrets
+
+import pabtc.secp256k1
 
 
 def sign(prikey: pabtc.secp256k1.Fr, m: pabtc.secp256k1.Fr) -> tuple[pabtc.secp256k1.Fr, pabtc.secp256k1.Fr, int]:

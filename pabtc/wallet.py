@@ -1,10 +1,12 @@
 import abc
 import json
+
+import requests
+
 import pabtc.config
 import pabtc.core
 import pabtc.denomination
 import pabtc.rpc
-import requests
 
 
 class Analyzer:

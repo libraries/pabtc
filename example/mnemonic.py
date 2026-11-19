@@ -1,4 +1,5 @@
 import argparse
+
 import pabtc
 
 # Encode and decode mnemonic phrases. The data length needs to be between 16 and 32 bytes and divisible by 4.
